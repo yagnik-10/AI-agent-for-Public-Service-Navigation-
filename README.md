@@ -2,7 +2,7 @@
 
 A voice-enabled AI system designed to help citizens access and understand support programs such as SNAP, housing assistance, and healthcare benefits. Built using fully open-source technologies, it combines conversational AI, Retrieval-Augmented Generation (RAG), and speech capabilities to provide real-time, accurate, and accessible answers through a natural voice interface.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -16,7 +16,7 @@ A voice-enabled AI system designed to help citizens access and understand suppor
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 🎯 Key Features
+## Key Features
 
 - **Voice Interface**: Natural phone-based interaction using Twilio
 - **Web Chat Interface**: Modern web-based chat for text interactions
@@ -27,7 +27,7 @@ A voice-enabled AI system designed to help citizens access and understand suppor
 - **Speech Synthesis**: Local TTS with SSML for natural speech
 - **Fully Open Source**: No proprietary dependencies (except optional Twilio trial credits)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ public-service-navigation/
 └── terraform/           # Infrastructure as code
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -111,7 +111,7 @@ RASA_WEBHOOK_URL=http://localhost:5005/webhooks/rest/webhook
 RAG_BACKEND_URL=http://localhost:8000
 ```
 
-## 🎯 Use Cases
+## Use Cases
 
 The assistant helps users with:
 
@@ -120,7 +120,7 @@ The assistant helps users with:
 - **Healthcare**: Medicaid, Medicare, ACA marketplace
 - **General Navigation**: Finding local offices, required documents
 
-## 🧪 Testing
+## Testing
 
 Run the test suite to verify all components are working:
 
@@ -128,7 +128,7 @@ Run the test suite to verify all components are working:
 python test_system.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -136,11 +136,11 @@ python test_system.py
 4. Add tests
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Rasa for conversational AI framework
 - LangChain for RAG pipeline
